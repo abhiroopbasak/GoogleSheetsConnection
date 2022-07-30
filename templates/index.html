@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>CollectDemo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+  
+<style>
+    * {
+        margin: 0px;
+        border: 0px;
+        scroll-behavior: smooth;
+        overflow: hidden;
+    }
+  #ban {
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 0px;
+        color: white;
+        padding-top: 1px;
+        height: 70px;
+        width: 100%;
+    }
+  input[type=text] {
+        height: 40px;
+        width: 300px;
+        padding-left: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        transition: none;
+        text-decoration: none;
+        outline: none;
+        color: white;
+    }
+
+    input[type=email] {
+        height: 40px;
+        width: 300px;
+        padding-left: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        transition: none;
+        text-decoration: none;
+        outline: none;
+        color: white;
+    }
+  input[type=submit] {
+        height: 40px;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        ;
+        transition: none;
+        color: white;
+    }
+  ::placeholder {
+        color: white;
+    }
+  td {
+        padding: 8px;
+        color: black;
+        font-size: 18px;
+        
+    }
+
+    label {
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    hr {
+        width: 50%;
+    }
+
+</style>
+
+  
+<body>
+  
+    </div>
+    <div id="ban">
+        <h2 style="padding-left: 40px;padding-top: 10px;">Collect Demo</h2>
+    </div>
+  <br>
+  <center>
+  <form action="submit">
+    <table>
+      <tr>
+        <td>Name: </td>
+        <td><input type="text" placeholder="Enter your Name" name="name"></td>
+      </tr>
+      <tr>
+        <td>Email: </td>
+        <td><input type="email" placeholder="Enter your Email" name="email"></td>
+      </tr>
+      <tr>
+        <td>City: </td>
+        <td><input type="text" placeholder="Enter City" name="city" id="city"></td>
+      </tr>
+      <tr>
+        <td>Favourite Colour: </td>
+        <td><input type="text" placeholder="Favourite colour" name="colour" id="colour"></td>
+      </tr>
+    </table>
+    <br>
+      <input type="Submit" style="height: 40px;width: 300px;" onclick="return Validate();">
+  </form>
+<br>
+    <div>
+  <form action="export">
+    <input type="submit" value="Export" label="Export" style="height: 40px;width: 300px;" onclick="return Validate();">
+  </form>
+      
+  </center>
+  
+</body>
