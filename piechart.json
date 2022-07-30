@@ -1,0 +1,54 @@
+{
+    "requests": [
+      {
+        "addChart": {
+          "chart": {
+            "spec": {
+              "title": "Model Q1 Total Sales",
+              "pieChart": {
+                "legendPosition": "RIGHT_LEGEND",
+                "threeDimensional": true,
+                "domain": {
+                  "sourceRange": {
+                    "sources": [
+                      {
+                        "sheetId": 646396187,
+                        "startRowIndex": 0,
+                        "endRowIndex": 7,
+                        "startColumnIndex": 0,
+                        "endColumnIndex": 1
+                      }
+                    ]
+                  }
+                },
+                "series": {
+                  "sourceRange": {
+                    "sources": [
+                      {
+                        "sheetId": 646396187,
+                        "startRowIndex": 0,
+                        "endRowIndex": 7,
+                        "startColumnIndex": 4,
+                        "endColumnIndex": 5
+                      }
+                    ]
+                  }
+                },
+              }
+            },
+            "position": {
+              "overlayPosition": {
+                "anchorCell": {
+                  "sheetId": 646396187,
+                  "rowIndex": 2,
+                  "columnIndex": 2
+                },
+                "offsetXPixels": 50,
+                "offsetYPixels": 50
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
